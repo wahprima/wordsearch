@@ -1,5 +1,5 @@
 # wordsearch
-searching and counting word from a grid with a mixed of random letters.
+searching and counting specified word from a random letters inside a grid
 
 This script is inspired and a modification from :
 https://github.com/mashingan/word-search-solver
