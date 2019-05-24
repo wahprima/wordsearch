@@ -37,20 +37,20 @@ spelled the same backwards and forwards, also known as palindromes,
 will not be given, so you don't need to worry about words that match in the exact
 same spot in two different directions.
 
-**Input : **
+**Input :**
 
 The first line is the number of test cases T. Each test case will have two numbers
 N and M, each of their own line given in that order. Following that is N lines of
 M lowercase letters each representing the grid of letters, a word W is given that
 you must look for.
 
-**Output : **
+**Output :**
 
 For each test case, output one line of the form "Case C: X" (without the quotes),
 where C is the case number (starting from 1), and X is how many times the word W
 appeared in the grid.
 
-**Constraints : **
+**Constraints :**
 
 **1 <= T <= 100**
 
@@ -58,9 +58,9 @@ appeared in the grid.
 
 **1 <= M <= 100**
 
-**1 <= length(W) <= 100
+**1 <= length(W) <= 100**
 
-**Sample Input : **
+**Sample Input :**
 ```
 3
 3
@@ -82,4 +82,11 @@ dog
 bananana
 kalibrrr
 nana
+```
+
+**Sample Output :**
+```
+Case 1: 4
+Case 2: 8
+Case 3: 4
 ```
